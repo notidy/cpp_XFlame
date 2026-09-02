@@ -1,0 +1,419 @@
+    Addr      Off     Size Out     In      Symbol
+       -        8      12a TYPE
+       -      132      15b IMPORT
+       -      28d       ab FUNCTION
+       -      338        7 TABLE
+       -      33f        9 MEMORY
+       -      348        a GLOBAL
+       0        0        0         __stack_pointer
+       -      352      213 EXPORT
+       -      565       14 ELEM
+       -      579    18cf7 CODE
+       -      57b        8         <internal>:(__wasm_call_ctors)
+       -      583        9         D:\New\emsdk\upstream\emscripten\cache\sysroot\lib\wasm32-emscripten\lto\libc.a(__errno_location.o):(__errno_location)
+       -      583        9                 __errno_location
+       -      583        9                 ___errno_location
+       -      58c       b0         D:\New\emsdk\upstream\emscripten\cache\sysroot\lib\wasm32-emscripten\lto\libc.a(scalbn.o):(scalbn)
+       -      58c       b0                 scalbn
+       -      63c       4c         D:\New\emsdk\upstream\emscripten\cache\sysroot\lib\wasm32-emscripten\lto\libc.a(__fpclassifyl.o):(__fpclassifyl)
+       -      63c       4c                 __fpclassifyl
+       -      688      369         D:\New\emsdk\upstream\emscripten\cache\sysroot\lib\wasm32-emscripten\lto\libc.a(fmodl.o):(fmodl)
+       -      688      369                 fmodl
+       -      9f1      174         D:\New\emsdk\upstream\emscripten\cache\sysroot\lib\wasm32-emscripten\lto\libc.a(emscripten_memset.o):(__memset)
+       -      9f1      174                 __memset
+       -      9f1      174                 emscripten_builtin_memset
+       -      9f1      174                 memset
+       -      b65       14         D:\New\emsdk\upstream\emscripten\cache\sysroot\lib\wasm32-emscripten\lto\libc.a(emscripten_memcpy_bulkmem.o):(_emscripten_memcpy_bulkmem)
+       -      b65       14                 _emscripten_memcpy_bulkmem
+       -      b79      215         D:\New\emsdk\upstream\emscripten\cache\sysroot\lib\wasm32-emscripten\lto\libc.a(emscripten_memcpy.o):(__memcpy)
+       -      b79      215                 __memcpy
+       -      b79      215                 emscripten_builtin_memcpy
+       -      b79      215                 memcpy
+       -      d8e     1248         D:\New\emsdk\upstream\emscripten\cache\sysroot\lib\wasm32-emscripten\lto\libdlmalloc.a(dlmalloc.o):(emscripten_builtin_malloc)
+       -      d8e     1248                 emscripten_builtin_malloc
+       -      d8e     1248                 __libc_malloc
+       -      d8e     1248                 malloc
+       -     1fd6      423         D:\New\emsdk\upstream\emscripten\cache\sysroot\lib\wasm32-emscripten\lto\libdlmalloc.a(dlmalloc.o):(prepend_alloc)
+       -     1fd6      423                 prepend_alloc
+       -     23f9      68c         D:\New\emsdk\upstream\emscripten\cache\sysroot\lib\wasm32-emscripten\lto\libdlmalloc.a(dlmalloc.o):(emscripten_builtin_free)
+       -     23f9      68c                 emscripten_builtin_free
+       -     23f9      68c                 __libc_free
+       -     23f9      68c                 free
+       -     2a85        8         D:\New\emsdk\upstream\emscripten\cache\sysroot\lib\wasm32-emscripten\lto\libc.a(emscripten_get_heap_size.o):(emscripten_get_heap_size)
+       -     2a85        8                 emscripten_get_heap_size
+       -     2a8d       65         D:\New\emsdk\upstream\emscripten\cache\sysroot\lib\wasm32-emscripten\lto\libdlmalloc.a(sbrk.o):(sbrk)
+       -     2a8d       65                 sbrk
+       -     2af2       e8         D:\New\emsdk\upstream\emscripten\cache\sysroot\lib\wasm32-emscripten\lto\libclang_rt.builtins.a(comparetf2.o):(__letf2)
+       -     2af2       e8                 __letf2
+       -     2af2       e8                 __eqtf2
+       -     2af2       e8                 __lttf2
+       -     2af2       e8                 __netf2
+       -     2bda       da         D:\New\emsdk\upstream\emscripten\cache\sysroot\lib\wasm32-emscripten\lto\libclang_rt.builtins.a(comparetf2.o):(__getf2)
+       -     2bda       da                 __getf2
+       -     2bda       da                 __gttf2
+       -     2cb4       54         D:\New\emsdk\upstream\emscripten\cache\sysroot\lib\wasm32-emscripten\lto\libclang_rt.builtins.a(ashlti3.o):(__ashlti3)
+       -     2cb4       54                 __ashlti3
+       -     2d08      8a1         D:\New\emsdk\upstream\emscripten\cache\sysroot\lib\wasm32-emscripten\lto\libclang_rt.builtins.a(divtf3.o):(__divtf3)
+       -     2d08      8a1                 __divtf3
+       -     35a9       54         D:\New\emsdk\upstream\emscripten\cache\sysroot\lib\wasm32-emscripten\lto\libclang_rt.builtins.a(lshrti3.o):(__lshrti3)
+       -     35a9       54                 __lshrti3
+       -     35fd      5b7         D:\New\emsdk\upstream\emscripten\cache\sysroot\lib\wasm32-emscripten\lto\libclang_rt.builtins.a(multf3.o):(__multf3)
+       -     35fd      5b7                 __multf3
+       -     3bb4       76         D:\New\emsdk\upstream\emscripten\cache\sysroot\lib\wasm32-emscripten\lto\libclang_rt.builtins.a(multi3.o):(__multi3)
+       -     3bb4       76                 __multi3
+       -     3c2a       89         D:\New\emsdk\upstream\emscripten\cache\sysroot\lib\wasm32-emscripten\lto\libc.a(strlen.o):(strlen)
+       -     3c2a       89                 strlen
+       -     3cb3       5d         D:\New\emsdk\upstream\emscripten\cache\sysroot\lib\wasm32-emscripten\lto\libc.a(__towrite.o):(__towrite)
+       -     3cb3       5d                 __towrite
+       -     3d10       e8         D:\New\emsdk\upstream\emscripten\cache\sysroot\lib\wasm32-emscripten\lto\libc.a(fwrite.o):(__fwritex)
+       -     3d10       e8                 __fwritex
+       -     3df8       b5         D:\New\emsdk\upstream\emscripten\cache\sysroot\lib\wasm32-emscripten\lto\libc.a(__overflow.o):(__overflow)
+       -     3df8       b5                 __overflow
+       -     3ead        5         D:\New\emsdk\upstream\emscripten\cache\sysroot\lib\wasm32-emscripten\lto\libc.a(__lockfile.o):(__lockfile)
+       -     3ead        5                 __lockfile
+       -     3eb2        d         D:\New\emsdk\upstream\emscripten\cache\sysroot\lib\wasm32-emscripten\lto\libc.a(fputc.o):(fputc)
+       -     3eb2        d                 fputc
+       -     3ebf       7c         D:\New\emsdk\upstream\emscripten\cache\sysroot\lib\wasm32-emscripten\lto\libc.a(fputc.o):(do_putc)
+       -     3ebf       7c                 do_putc
+       -     3f3b       86         D:\New\emsdk\upstream\emscripten\cache\sysroot\lib\wasm32-emscripten\lto\libc.a(fputc.o):(locking_putc)
+       -     3f3b       86                 locking_putc
+       -     3fc1       1c         D:\New\emsdk\upstream\emscripten\cache\sysroot\lib\wasm32-emscripten\lto\libc.a(fputc.o):(a_cas)
+       -     3fc1       1c                 a_cas
+       -     3fdd       15         D:\New\emsdk\upstream\emscripten\cache\sysroot\lib\wasm32-emscripten\lto\libc.a(fputc.o):(a_swap)
+       -     3fdd       15                 a_swap
+       -     3ff2        e         D:\New\emsdk\upstream\emscripten\cache\sysroot\lib\wasm32-emscripten\lto\libc.a(fputc.o):(__wake)
+       -     3ff2        e                 __wake
+       -     4000        b         D:\New\emsdk\upstream\emscripten\cache\sysroot\lib\wasm32-emscripten\lto\libclang_rt.builtins.a(stack_ops.o):(_emscripten_stack_restore)
+       -     4000        b                 _emscripten_stack_restore
+       -     400b       1b         D:\New\emsdk\upstream\emscripten\cache\sysroot\lib\wasm32-emscripten\lto\libclang_rt.builtins.a(stack_ops.o):(_emscripten_stack_alloc)
+       -     400b       1b                 _emscripten_stack_alloc
+       -     4026        9         D:\New\emsdk\upstream\emscripten\cache\sysroot\lib\wasm32-emscripten\lto\libclang_rt.builtins.a(stack_ops.o):(emscripten_stack_get_current)
+       -     4026        9                 emscripten_stack_get_current
+       -     402f        5         D:\New\emsdk\upstream\emscripten\cache\sysroot\lib\wasm32-emscripten\lto\libclang_rt.builtins.a(fp_mode.o):(__fe_getround)
+       -     402f        5                 __fe_getround
+       -     4034        5         D:\New\emsdk\upstream\emscripten\cache\sysroot\lib\wasm32-emscripten\lto\libclang_rt.builtins.a(fp_mode.o):(__fe_raise_inexact)
+       -     4034        5                 __fe_raise_inexact
+       -     4039      582         D:\New\emsdk\upstream\emscripten\cache\sysroot\lib\wasm32-emscripten\lto\libclang_rt.builtins.a(addtf3.o):(__addtf3)
+       -     4039      582                 __addtf3
+       -     45bb       55         D:\New\emsdk\upstream\emscripten\cache\sysroot\lib\wasm32-emscripten\lto\libclang_rt.builtins.a(subtf3.o):(__subtf3)
+       -     45bb       55                 __subtf3
+       -     4610      20c         D:\New\emsdk\upstream\emscripten\cache\sysroot\lib\wasm32-emscripten\lto\libclang_rt.builtins.a(trunctfsf2.o):(__trunctfsf2)
+       -     4610      20c                 __trunctfsf2
+       -     481c      22b         D:\New\emsdk\upstream\emscripten\cache\sysroot\lib\wasm32-emscripten\lto\libclang_rt.builtins.a(trunctfdf2.o):(__trunctfdf2)
+       -     481c      22b                 __trunctfdf2
+       -     4a47       ec         D:\New\emsdk\upstream\emscripten\cache\sysroot\lib\wasm32-emscripten\lto\libclang_rt.builtins.a(extendsftf2.o):(__extendsftf2)
+       -     4a47       ec                 __extendsftf2
+       -     4b33       a3         D:\New\emsdk\upstream\emscripten\cache\sysroot\lib\wasm32-emscripten\lto\libclang_rt.builtins.a(floatsitf.o):(__floatsitf)
+       -     4b33       a3                 __floatsitf
+       -     4bd6       f6         D:\New\emsdk\upstream\emscripten\cache\sysroot\lib\wasm32-emscripten\lto\libclang_rt.builtins.a(extenddftf2.o):(__extenddftf2)
+       -     4bd6       f6                 __extenddftf2
+       -     4ccc       83         D:\New\emsdk\upstream\emscripten\cache\sysroot\lib\wasm32-emscripten\lto\libclang_rt.builtins.a(floatunsitf.o):(__floatunsitf)
+       -     4ccc       83                 __floatunsitf
+       -     4d4f      765         dist/xflame.wasm.lto.o:(_Z19BatchRigidTransformRKNSt3__25arrayIN5Eigen6MatrixIfLi3ELi3ELi0ELi3ELi3EEELm5EEERKNS2_IfLi5ELi3ELi0ELi5ELi3EEERKNS1_3RefIKNS2_IfLi1ELi5ELi1ELi1ELi5EEELi0ENS1_11InnerStrideILi1EEEEE)
+       -     4d4f      765                 BatchRigidTransform(std::__2::array<Eigen::Matrix<float, 3, 3, 0, 3, 3>, 5ul> const&, Eigen::Matrix<float, 5, 3, 0, 5, 3> const&, Eigen::Ref<Eigen::Matrix<float, 1, 5, 1, 1, 5> const, 0, Eigen::InnerStride<1>> const&)
+       -     54b4      371         dist/xflame.wasm.lto.o:(_ZN5Eigen8internal21dense_assignment_loopINS0_31generic_dense_assignment_kernelINS0_9evaluatorINS_6MatrixIfLi4ELi4ELi0ELi4ELi4EEEEENS3_INS_7ProductIS5_S5_Li1EEEEENS0_9assign_opIffEELi0EEELi0ELi1EE3runERSC_)
+       -     54b4      371                 Eigen::internal::dense_assignment_loop<Eigen::internal::generic_dense_assignment_kernel<Eigen::internal::evaluator<Eigen::Matrix<float, 4, 4, 0, 4, 4>>, Eigen::internal::evaluator<Eigen::Product<Eigen::Matrix<float, 4, 4, 0, 4, 4>, Eigen::Matrix<float, 4, 4, 0, 4, 4>, 1>>, Eigen::internal::assign_op<float, float>, 0>, 0, 1>::run(Eigen::internal::generic_dense_assignment_kernel<Eigen::internal::evaluator<Eigen::Matrix<float, 4, 4, 0, 4, 4>>, Eigen::internal::evaluator<Eigen::Product<Eigen::Matrix<float, 4, 4, 0, 4, 4>, Eigen::Matrix<float, 4, 4, 0, 4, 4>, 1>>, Eigen::internal::assign_op<float, float>, 0>&)
+       -     5825      524         dist/xflame.wasm.lto.o:(_Z20ComputeVertexNormalsRKN5Eigen6MatrixIfLin1ELi3ELi1ELin1ELi3EEERKNS0_IiLin1ELi3ELi1ELin1ELi3EEERS1_)
+       -     5825      524                 ComputeVertexNormals(Eigen::Matrix<float, -1, 3, 1, -1, 3> const&, Eigen::Matrix<int, -1, 3, 1, -1, 3> const&, Eigen::Matrix<float, -1, 3, 1, -1, 3>&)
+       -     5d49       e4         dist/xflame.wasm.lto.o:(_ZN5Eigen15PlainObjectBaseINS_6MatrixIfLin1ELi3ELi1ELin1ELi3EEEE6resizeEll)
+       -     5d49       e4                 Eigen::PlainObjectBase<Eigen::Matrix<float, -1, 3, 1, -1, 3>>::resize(long, long)
+       -     5e2d       1b         dist/xflame.wasm.lto.o:(_Znwm)
+       -     5e2d       1b                 operator new(unsigned long)
+       -     5e48     50b5         dist/xflame.wasm.lto.o:(_ZN6XFlame4InitEPKvmS1_mS1_mS1_m)
+       -     5e48     50b5                 XFlame::Init(void const*, unsigned long, void const*, unsigned long, void const*, unsigned long, void const*, unsigned long)
+       -     aefd       45         dist/xflame.wasm.lto.o:(strtof)
+       -     aefd       45                 strtof
+       -     af42       16         dist/xflame.wasm.lto.o:(strtol)
+       -     af42       16                 strtol
+       -     af58        d         dist/xflame.wasm.lto.o:(_ZNSt3__212basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEE17__assign_externalEPKc)
+       -     af58        d                 std::__2::basic_string<char, std::__2::char_traits<char>, std::__2::allocator<char>>::__assign_external(char const*)
+       -     af65      aab         dist/xflame.wasm.lto.o:(_ZN9XDataUtil9LoadBin32EPKvm)
+       -     af65      aab                 XDataUtil::LoadBin32(void const*, unsigned long)
+       -     ba10      436         dist/xflame.wasm.lto.o:(_ZNSt3__212__hash_tableINS_17__hash_value_typeINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEENS_6vectorIcS6_EEEENS_22__unordered_map_hasherIS7_NS_4pairIKS7_S9_EENS_4hashIS7_EENS_8equal_toIS7_EELb1EEENS_21__unordered_map_equalIS7_SE_SI_SG_Lb1EEENS5_ISE_EEE25__emplace_unique_key_argsIS7_JRKNS_21piecewise_construct_tENS_5tupleIJOS7_EEENSS_IJEEEEEENSC_INS_15__hash_iteratorIPNS_11__hash_nodeISA_PvEEEEbEERKT_DpOT0_)
+       -     ba10      436                 std::__2::pair<std::__2::__hash_iterator<std::__2::__hash_node<std::__2::__hash_value_type<std::__2::basic_string<char, std::__2::char_traits<char>, std::__2::allocator<char>>, std::__2::vector<char, std::__2::allocator<char>>>, void*>*>, bool> std::__2::__hash_table<std::__2::__hash_value_type<std::__2::basic_string<char, std::__2::char_traits<char>, std::__2::allocator<char>>, std::__2::vector<char, std::__2::allocator<char>>>, std::__2::__unordered_map_hasher<std::__2::basic_string<char, std::__2::char_traits<char>, std::__2::allocator<char>>, std::__2::pair<std::__2::basic_string<char, std::__2::char_traits<char>, std::__2::allocator<char>> const, std::__2::vector<char, std::__2::allocator<char>>>, std::__2::hash<std::__2::basic_string<char, std::__2::char_traits<char>, std::__2::allocator<char>>>, std::__2::equal_to<std::__2::basic_string<char, std::__2::char_traits<char>, std::__2::allocator<char>>>, true>, std::__2::__unordered_map_equal<std::__2::basic_string<char, std::__2::char_traits<char>, std::__2::allocator<char>>, std::__2::pair<std::__2::basic_string<char, std::__2::char_traits<char>, std::__2::allocator<char>> const, std::__2::vector<char, std::__2::allocator<char>>>, std::__2::equal_to<std::__2::basic_string<char, std::__2::char_traits<char>, std::__2::allocator<char>>>, std::__2::hash<std::__2::basic_string<char, std::__2::char_traits<char>, std::__2::allocator<char>>>, true>, std::__2::allocator<std::__2::pair<std::__2::basic_string<char, std::__2::char_traits<char>, std::__2::allocator<char>> const, std::__2::vector<char, std::__2::allocator<char>>>>>::__emplace_unique_key_args<std::__2::basic_string<char, std::__2::char_traits<char>, std::__2::allocator<char>>, std::__2::piecewise_construct_t const&, std::__2::tuple<std::__2::basic_string<char, std::__2::char_traits<char>, std::__2::allocator<char>>&&>, std::__2::tuple<>>(std::__2::basic_string<char, std::__2::char_traits<char>, std::__2::allocator<char>> const&, std::__2::piecewise_construct_t const&, std::__2::tuple<std::__2::basic_string<char, std::__2::char_traits<char>, std::__2::allocator<char>>&&>&&, std::__2::tuple<>&&)
+       -     be46        b         dist/xflame.wasm.lto.o:(_ZdlPvm)
+       -     be46        b                 operator delete(void*, unsigned long)
+       -     be51      21f         dist/xflame.wasm.lto.o:(_ZN9XDataUtil12GetBinMatrixIfLin1ELi3ELi1EEEN5Eigen6MatrixIT_XT0_EXT1_EXT2_EXT0_EXT1_EEERKNSt3__213unordered_mapINS5_12basic_stringIcNS5_11char_traitsIcEENS5_9allocatorIcEEEENS5_6vectorIcSB_EENS5_4hashISC_EENS5_8equal_toISC_EENSA_INS5_4pairIKSC_SE_EEEEEERSK_ii)
+       -     be51      21f                 Eigen::Matrix<float, -1, 3, 1, -1, 3> XDataUtil::GetBinMatrix<float, -1, 3, 1>(std::__2::unordered_map<std::__2::basic_string<char, std::__2::char_traits<char>, std::__2::allocator<char>>, std::__2::vector<char, std::__2::allocator<char>>, std::__2::hash<std::__2::basic_string<char, std::__2::char_traits<char>, std::__2::allocator<char>>>, std::__2::equal_to<std::__2::basic_string<char, std::__2::char_traits<char>, std::__2::allocator<char>>>, std::__2::allocator<std::__2::pair<std::__2::basic_string<char, std::__2::char_traits<char>, std::__2::allocator<char>> const, std::__2::vector<char, std::__2::allocator<char>>>>> const&, std::__2::basic_string<char, std::__2::char_traits<char>, std::__2::allocator<char>> const&, int, int)
+       -     c070      21f         dist/xflame.wasm.lto.o:(_ZNKSt3__212__hash_tableINS_17__hash_value_typeINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEENS_6vectorIcS6_EEEENS_22__unordered_map_hasherIS7_NS_4pairIKS7_S9_EENS_4hashIS7_EENS_8equal_toIS7_EELb1EEENS_21__unordered_map_equalIS7_SE_SI_SG_Lb1EEENS5_ISE_EEE4findIS7_EENS_21__hash_const_iteratorIPNS_11__hash_nodeISA_PvEEEERKT_)
+       -     c070      21f                 std::__2::__hash_const_iterator<std::__2::__hash_node<std::__2::__hash_value_type<std::__2::basic_string<char, std::__2::char_traits<char>, std::__2::allocator<char>>, std::__2::vector<char, std::__2::allocator<char>>>, void*>*> std::__2::__hash_table<std::__2::__hash_value_type<std::__2::basic_string<char, std::__2::char_traits<char>, std::__2::allocator<char>>, std::__2::vector<char, std::__2::allocator<char>>>, std::__2::__unordered_map_hasher<std::__2::basic_string<char, std::__2::char_traits<char>, std::__2::allocator<char>>, std::__2::pair<std::__2::basic_string<char, std::__2::char_traits<char>, std::__2::allocator<char>> const, std::__2::vector<char, std::__2::allocator<char>>>, std::__2::hash<std::__2::basic_string<char, std::__2::char_traits<char>, std::__2::allocator<char>>>, std::__2::equal_to<std::__2::basic_string<char, std::__2::char_traits<char>, std::__2::allocator<char>>>, true>, std::__2::__unordered_map_equal<std::__2::basic_string<char, std::__2::char_traits<char>, std::__2::allocator<char>>, std::__2::pair<std::__2::basic_string<char, std::__2::char_traits<char>, std::__2::allocator<char>> const, std::__2::vector<char, std::__2::allocator<char>>>, std::__2::equal_to<std::__2::basic_string<char, std::__2::char_traits<char>, std::__2::allocator<char>>>, std::__2::hash<std::__2::basic_string<char, std::__2::char_traits<char>, std::__2::allocator<char>>>, true>, std::__2::allocator<std::__2::pair<std::__2::basic_string<char, std::__2::char_traits<char>, std::__2::allocator<char>> const, std::__2::vector<char, std::__2::allocator<char>>>>>::find<std::__2::basic_string<char, std::__2::char_traits<char>, std::__2::allocator<char>>>(std::__2::basic_string<char, std::__2::char_traits<char>, std::__2::allocator<char>> const&) const
+       -     c28f      202         dist/xflame.wasm.lto.o:(_ZN9XDataUtil12GetBinMatrixIfLin1ELi100ELi1EEEN5Eigen6MatrixIT_XT0_EXT1_EXT2_EXT0_EXT1_EEERKNSt3__213unordered_mapINS5_12basic_stringIcNS5_11char_traitsIcEENS5_9allocatorIcEEEENS5_6vectorIcSB_EENS5_4hashISC_EENS5_8equal_toISC_EENSA_INS5_4pairIKSC_SE_EEEEEERSK_ii)
+       -     c28f      202                 Eigen::Matrix<float, -1, 100, 1, -1, 100> XDataUtil::GetBinMatrix<float, -1, 100, 1>(std::__2::unordered_map<std::__2::basic_string<char, std::__2::char_traits<char>, std::__2::allocator<char>>, std::__2::vector<char, std::__2::allocator<char>>, std::__2::hash<std::__2::basic_string<char, std::__2::char_traits<char>, std::__2::allocator<char>>>, std::__2::equal_to<std::__2::basic_string<char, std::__2::char_traits<char>, std::__2::allocator<char>>>, std::__2::allocator<std::__2::pair<std::__2::basic_string<char, std::__2::char_traits<char>, std::__2::allocator<char>> const, std::__2::vector<char, std::__2::allocator<char>>>>> const&, std::__2::basic_string<char, std::__2::char_traits<char>, std::__2::allocator<char>> const&, int, int)
+       -     c491      21f         dist/xflame.wasm.lto.o:(_ZN9XDataUtil12GetBinMatrixIfLin1ELi6ELi1EEEN5Eigen6MatrixIT_XT0_EXT1_EXT2_EXT0_EXT1_EEERKNSt3__213unordered_mapINS5_12basic_stringIcNS5_11char_traitsIcEENS5_9allocatorIcEEEENS5_6vectorIcSB_EENS5_4hashISC_EENS5_8equal_toISC_EENSA_INS5_4pairIKSC_SE_EEEEEERSK_ii)
+       -     c491      21f                 Eigen::Matrix<float, -1, 6, 1, -1, 6> XDataUtil::GetBinMatrix<float, -1, 6, 1>(std::__2::unordered_map<std::__2::basic_string<char, std::__2::char_traits<char>, std::__2::allocator<char>>, std::__2::vector<char, std::__2::allocator<char>>, std::__2::hash<std::__2::basic_string<char, std::__2::char_traits<char>, std::__2::allocator<char>>>, std::__2::equal_to<std::__2::basic_string<char, std::__2::char_traits<char>, std::__2::allocator<char>>>, std::__2::allocator<std::__2::pair<std::__2::basic_string<char, std::__2::char_traits<char>, std::__2::allocator<char>> const, std::__2::vector<char, std::__2::allocator<char>>>>> const&, std::__2::basic_string<char, std::__2::char_traits<char>, std::__2::allocator<char>> const&, int, int)
+       -     c6b0      21f         dist/xflame.wasm.lto.o:(_ZNSt3__212__hash_tableINS_17__hash_value_typeINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEENS_6vectorIcS6_EEEENS_22__unordered_map_hasherIS7_NS_4pairIKS7_S9_EENS_4hashIS7_EENS_8equal_toIS7_EELb1EEENS_21__unordered_map_equalIS7_SE_SI_SG_Lb1EEENS5_ISE_EEE4findIS7_EENS_15__hash_iteratorIPNS_11__hash_nodeISA_PvEEEERKT_)
+       -     c6b0      21f                 std::__2::__hash_iterator<std::__2::__hash_node<std::__2::__hash_value_type<std::__2::basic_string<char, std::__2::char_traits<char>, std::__2::allocator<char>>, std::__2::vector<char, std::__2::allocator<char>>>, void*>*> std::__2::__hash_table<std::__2::__hash_value_type<std::__2::basic_string<char, std::__2::char_traits<char>, std::__2::allocator<char>>, std::__2::vector<char, std::__2::allocator<char>>>, std::__2::__unordered_map_hasher<std::__2::basic_string<char, std::__2::char_traits<char>, std::__2::allocator<char>>, std::__2::pair<std::__2::basic_string<char, std::__2::char_traits<char>, std::__2::allocator<char>> const, std::__2::vector<char, std::__2::allocator<char>>>, std::__2::hash<std::__2::basic_string<char, std::__2::char_traits<char>, std::__2::allocator<char>>>, std::__2::equal_to<std::__2::basic_string<char, std::__2::char_traits<char>, std::__2::allocator<char>>>, true>, std::__2::__unordered_map_equal<std::__2::basic_string<char, std::__2::char_traits<char>, std::__2::allocator<char>>, std::__2::pair<std::__2::basic_string<char, std::__2::char_traits<char>, std::__2::allocator<char>> const, std::__2::vector<char, std::__2::allocator<char>>>, std::__2::equal_to<std::__2::basic_string<char, std::__2::char_traits<char>, std::__2::allocator<char>>>, std::__2::hash<std::__2::basic_string<char, std::__2::char_traits<char>, std::__2::allocator<char>>>, true>, std::__2::allocator<std::__2::pair<std::__2::basic_string<char, std::__2::char_traits<char>, std::__2::allocator<char>> const, std::__2::vector<char, std::__2::allocator<char>>>>>::find<std::__2::basic_string<char, std::__2::char_traits<char>, std::__2::allocator<char>>>(std::__2::basic_string<char, std::__2::char_traits<char>, std::__2::allocator<char>> const&)
+       -     c8cf      1cc         dist/xflame.wasm.lto.o:(sinf)
+       -     c8cf      1cc                 sinf
+       -     ca9b      1d1         dist/xflame.wasm.lto.o:(cosf)
+       -     ca9b      1d1                 cosf
+       -     cc6c       10         dist/xflame.wasm.lto.o:(_ZNSt3__26vectorIN5Eigen6MatrixIfLi3ELi3ELi0ELi3ELi3EEENS_9allocatorIS3_EEE20__throw_length_errorB8nn210108Ev)
+       -     cc6c       10                 std::__2::vector<Eigen::Matrix<float, 3, 3, 0, 3, 3>, std::__2::allocator<Eigen::Matrix<float, 3, 3, 0, 3, 3>>>::__throw_length_error[abi:nn210108]()
+       -     cc7c      101         dist/xflame.wasm.lto.o:(_ZN5Eigen15PlainObjectBaseINS_6MatrixIfLin1ELin1ELi0ELin1ELin1EEEE6resizeEll)
+       -     cc7c      101                 Eigen::PlainObjectBase<Eigen::Matrix<float, -1, -1, 0, -1, -1>>::resize(long, long)
+       -     cd7d      8b0         dist/xflame.wasm.lto.o:(_ZN5Eigen8internal26call_dense_assignment_loopINS_6MatrixIfLin1ELin1ELi0ELin1ELin1EEENS_13CwiseBinaryOpINS0_13scalar_sum_opIffEEKNS2_IfLin1ELi3ELi1ELin1ELi3EEEKNS_8ReshapedIKNS_7ProductINS2_IfLin1ELi400ELi1ELin1ELi400EEENS2_IfLin1ELi1ELi0ELin1ELi1EEELi0EEELin1ELin1ELi1EEEEENS0_9assign_opIffEEEEvRT_RKT0_RKT1_)
+       -     cd7d      8b0                 void Eigen::internal::call_dense_assignment_loop<Eigen::Matrix<float, -1, -1, 0, -1, -1>, Eigen::CwiseBinaryOp<Eigen::internal::scalar_sum_op<float, float>, Eigen::Matrix<float, -1, 3, 1, -1, 3> const, Eigen::Reshaped<Eigen::Product<Eigen::Matrix<float, -1, 400, 1, -1, 400>, Eigen::Matrix<float, -1, 1, 0, -1, 1>, 0> const, -1, -1, 1> const>, Eigen::internal::assign_op<float, float>>(Eigen::Matrix<float, -1, -1, 0, -1, -1>&, Eigen::CwiseBinaryOp<Eigen::internal::scalar_sum_op<float, float>, Eigen::Matrix<float, -1, 3, 1, -1, 3> const, Eigen::Reshaped<Eigen::Product<Eigen::Matrix<float, -1, 400, 1, -1, 400>, Eigen::Matrix<float, -1, 1, 0, -1, 1>, 0> const, -1, -1, 1> const> const&, Eigen::internal::assign_op<float, float> const&)
+       -     d62d      4d5         dist/xflame.wasm.lto.o:(_ZN5Eigen8internal20generic_product_implINS_6MatrixIfLi5ELin1ELi1ELi5ELin1EEENS2_IfLin1ELin1ELi0ELin1ELin1EEENS_10DenseShapeES5_Li8EE6evalToINS2_IfLi5ELi3ELi0ELi5ELi3EEEEEvRT_RKS3_RKS4_)
+       -     d62d      4d5                 void Eigen::internal::generic_product_impl<Eigen::Matrix<float, 5, -1, 1, 5, -1>, Eigen::Matrix<float, -1, -1, 0, -1, -1>, Eigen::DenseShape, Eigen::DenseShape, 8>::evalTo<Eigen::Matrix<float, 5, 3, 0, 5, 3>>(Eigen::Matrix<float, 5, 3, 0, 5, 3>&, Eigen::Matrix<float, 5, -1, 1, 5, -1> const&, Eigen::Matrix<float, -1, -1, 0, -1, -1> const&)
+       -     db02       30         dist/xflame.wasm.lto.o:(_ZNSt3__220__throw_out_of_rangeB8nn210108EPKc)
+       -     db02       30                 std::__2::__throw_out_of_range[abi:nn210108](char const*)
+       -     db32      564         dist/xflame.wasm.lto.o:(_ZN5Eigen8internal26call_dense_assignment_loopINS_6MatrixIfLin1ELin1ELi0ELin1ELin1EEENS_8ReshapedIKNS_7ProductINS_9TransposeINS2_IfLin1ELi1ELi0ELin1ELi1EEEEENS2_IfLi36ELin1ELi0ELi36ELin1EEELi0EEELin1ELin1ELi1EEENS0_9assign_opIffEEEEvRT_RKT0_RKT1_)
+       -     db32      564                 void Eigen::internal::call_dense_assignment_loop<Eigen::Matrix<float, -1, -1, 0, -1, -1>, Eigen::Reshaped<Eigen::Product<Eigen::Transpose<Eigen::Matrix<float, -1, 1, 0, -1, 1>>, Eigen::Matrix<float, 36, -1, 0, 36, -1>, 0> const, -1, -1, 1>, Eigen::internal::assign_op<float, float>>(Eigen::Matrix<float, -1, -1, 0, -1, -1>&, Eigen::Reshaped<Eigen::Product<Eigen::Transpose<Eigen::Matrix<float, -1, 1, 0, -1, 1>>, Eigen::Matrix<float, 36, -1, 0, 36, -1>, 0> const, -1, -1, 1> const&, Eigen::internal::assign_op<float, float> const&)
+       -     e096      1d5         dist/xflame.wasm.lto.o:(_ZN5Eigen15PlainObjectBaseINS_6MatrixIfLin1ELin1ELi0ELin1ELin1EEEEC2INS_13CwiseBinaryOpINS_8internal13scalar_sum_opIffEEKS2_S9_EEEERKNS_9DenseBaseIT_EE)
+       -     e096      1d5                 Eigen::PlainObjectBase<Eigen::Matrix<float, -1, -1, 0, -1, -1>>::PlainObjectBase<Eigen::CwiseBinaryOp<Eigen::internal::scalar_sum_op<float, float>, Eigen::Matrix<float, -1, -1, 0, -1, -1> const, Eigen::Matrix<float, -1, -1, 0, -1, -1> const>>(Eigen::DenseBase<Eigen::CwiseBinaryOp<Eigen::internal::scalar_sum_op<float, float>, Eigen::Matrix<float, -1, -1, 0, -1, -1> const, Eigen::Matrix<float, -1, -1, 0, -1, -1> const>> const&)
+       -     e26b       10         dist/xflame.wasm.lto.o:(_ZNSt3__26vectorIN5Eigen6MatrixIfLi4ELi4ELi0ELi4ELi4EEENS_9allocatorIS3_EEE20__throw_length_errorB8nn210108Ev)
+       -     e26b       10                 std::__2::vector<Eigen::Matrix<float, 4, 4, 0, 4, 4>, std::__2::allocator<Eigen::Matrix<float, 4, 4, 0, 4, 4>>>::__throw_length_error[abi:nn210108]()
+       -     e27b       88         dist/xflame.wasm.lto.o:(memcmp)
+       -     e27b       88                 memcmp
+       -     e303      654         dist/xflame.wasm.lto.o:(_ZNSt3__212__next_primeEm)
+       -     e303      654                 std::__2::__next_prime(unsigned long)
+       -     e957      1e6         dist/xflame.wasm.lto.o:(_ZNSt3__212__hash_tableINS_17__hash_value_typeINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEENS_6vectorIcS6_EEEENS_22__unordered_map_hasherIS7_NS_4pairIKS7_S9_EENS_4hashIS7_EENS_8equal_toIS7_EELb1EEENS_21__unordered_map_equalIS7_SE_SI_SG_Lb1EEENS5_ISE_EEE11__do_rehashILb1EEEvm)
+       -     e957      1e6                 void std::__2::__hash_table<std::__2::__hash_value_type<std::__2::basic_string<char, std::__2::char_traits<char>, std::__2::allocator<char>>, std::__2::vector<char, std::__2::allocator<char>>>, std::__2::__unordered_map_hasher<std::__2::basic_string<char, std::__2::char_traits<char>, std::__2::allocator<char>>, std::__2::pair<std::__2::basic_string<char, std::__2::char_traits<char>, std::__2::allocator<char>> const, std::__2::vector<char, std::__2::allocator<char>>>, std::__2::hash<std::__2::basic_string<char, std::__2::char_traits<char>, std::__2::allocator<char>>>, std::__2::equal_to<std::__2::basic_string<char, std::__2::char_traits<char>, std::__2::allocator<char>>>, true>, std::__2::__unordered_map_equal<std::__2::basic_string<char, std::__2::char_traits<char>, std::__2::allocator<char>>, std::__2::pair<std::__2::basic_string<char, std::__2::char_traits<char>, std::__2::allocator<char>> const, std::__2::vector<char, std::__2::allocator<char>>>, std::__2::equal_to<std::__2::basic_string<char, std::__2::char_traits<char>, std::__2::allocator<char>>>, std::__2::hash<std::__2::basic_string<char, std::__2::char_traits<char>, std::__2::allocator<char>>>, true>, std::__2::allocator<std::__2::pair<std::__2::basic_string<char, std::__2::char_traits<char>, std::__2::allocator<char>> const, std::__2::vector<char, std::__2::allocator<char>>>>>::__do_rehash<true>(unsigned long)
+       -     eb3d       e3         dist/xflame.wasm.lto.o:(_ZN5Eigen15PlainObjectBaseINS_6MatrixIfLin1ELi100ELi1ELin1ELi100EEEE6resizeEll)
+       -     eb3d       e3                 Eigen::PlainObjectBase<Eigen::Matrix<float, -1, 100, 1, -1, 100>>::resize(long, long)
+       -     ec20       e3         dist/xflame.wasm.lto.o:(_ZN5Eigen15PlainObjectBaseINS_6MatrixIfLin1ELi6ELi1ELin1ELi6EEEE6resizeEll)
+       -     ec20       e3                 Eigen::PlainObjectBase<Eigen::Matrix<float, -1, 6, 1, -1, 6>>::resize(long, long)
+       -     ed03       5d         dist/xflame.wasm.lto.o:(_ZNSt3__222__libcpp_verbose_abortEPKcz)
+       -     ed03       5d                 std::__2::__libcpp_verbose_abort(char const*, ...)
+       -     ed60       2c         dist/xflame.wasm.lto.o:(_ZNSt3__220__throw_length_errorB8nn210108EPKc)
+       -     ed60       2c                 std::__2::__throw_length_error[abi:nn210108](char const*)
+       -     ed8c      15c         dist/xflame.wasm.lto.o:(_ZN5Eigen8internal19gemv_dense_selectorILi2ELi1ELb1EE3runINS_6MatrixIfLin1ELi400ELi1ELin1ELi400EEENS4_IfLin1ELi1ELi0ELin1ELi1EEES6_EEvRKT_RKT0_RT1_RKNSD_6ScalarE)
+       -     ed8c      15c                 void Eigen::internal::gemv_dense_selector<2, 1, true>::run<Eigen::Matrix<float, -1, 400, 1, -1, 400>, Eigen::Matrix<float, -1, 1, 0, -1, 1>, Eigen::Matrix<float, -1, 1, 0, -1, 1>>(Eigen::Matrix<float, -1, 400, 1, -1, 400> const&, Eigen::Matrix<float, -1, 1, 0, -1, 1> const&, Eigen::Matrix<float, -1, 1, 0, -1, 1>&, Eigen::Matrix<float, -1, 1, 0, -1, 1>::Scalar const&)
+       -     eee8      25e         dist/xflame.wasm.lto.o:(_ZNK5Eigen8internal17product_evaluatorINS_7ProductINS_6MatrixIfLi5ELin1ELi1ELi5ELin1EEENS3_IfLin1ELin1ELi0ELin1ELin1EEELi1EEELi8ENS_10DenseShapeES7_ffE5coeffEll)
+       -     eee8      25e                 Eigen::internal::product_evaluator<Eigen::Product<Eigen::Matrix<float, 5, -1, 1, 5, -1>, Eigen::Matrix<float, -1, -1, 0, -1, -1>, 1>, 8, Eigen::DenseShape, Eigen::DenseShape, float, float>::coeff(long, long) const
+       -     f146      3a0         dist/xflame.wasm.lto.o:(_ZN5Eigen8internal29general_matrix_matrix_productIlfLi1ELb0EfLi0ELb0ELi0ELi1EE3runElllPKflS4_lPfllfRNS0_15level3_blockingIffEEPNS0_16GemmParallelInfoIlEE)
+       -     f146      3a0                 Eigen::internal::general_matrix_matrix_product<long, float, 1, false, float, 0, false, 0, 1>::run(long, long, long, float const*, long, float const*, long, float*, long, long, float, Eigen::internal::level3_blocking<float, float>&, Eigen::internal::GemmParallelInfo<long>*)
+       -     f4e6      162         dist/xflame.wasm.lto.o:(_ZN5Eigen8internal19gemv_dense_selectorILi2ELi1ELb1EE3runINS_9TransposeIKNS_6MatrixIfLi36ELin1ELi0ELi36ELin1EEEEENS4_IKNS4_INS5_IfLin1ELi1ELi0ELin1ELi1EEEEEEENS4_INS5_IfLi1ELin1ELi1ELi1ELin1EEEEEEEvRKT_RKT0_RT1_RKNSL_6ScalarE)
+       -     f4e6      162                 void Eigen::internal::gemv_dense_selector<2, 1, true>::run<Eigen::Transpose<Eigen::Matrix<float, 36, -1, 0, 36, -1> const>, Eigen::Transpose<Eigen::Transpose<Eigen::Matrix<float, -1, 1, 0, -1, 1>> const>, Eigen::Transpose<Eigen::Matrix<float, 1, -1, 1, 1, -1>>>(Eigen::Transpose<Eigen::Matrix<float, 36, -1, 0, 36, -1> const> const&, Eigen::Transpose<Eigen::Transpose<Eigen::Matrix<float, -1, 1, 0, -1, 1>> const> const&, Eigen::Transpose<Eigen::Matrix<float, 1, -1, 1, 1, -1>>&, Eigen::Transpose<Eigen::Matrix<float, 1, -1, 1, 1, -1>>::Scalar const&)
+       -     f648      55f         dist/xflame.wasm.lto.o:(_ZN5Eigen8internal29general_matrix_vector_productIlfNS0_22const_blas_data_mapperIflLi1EEELi1ELb0EfNS2_IflLi0EEELb0ELi0EE3runEllRKS3_RKS4_Pflf)
+       -     f648      55f                 Eigen::internal::general_matrix_vector_product<long, float, Eigen::internal::const_blas_data_mapper<float, long, 1>, 1, false, float, Eigen::internal::const_blas_data_mapper<float, long, 0>, false, 0>::run(long, long, Eigen::internal::const_blas_data_mapper<float, long, 1> const&, Eigen::internal::const_blas_data_mapper<float, long, 0> const&, float*, long, float)
+       -     fba7      187         dist/xflame.wasm.lto.o:(_ZN5Eigen8internal13gemm_pack_lhsIflNS0_22const_blas_data_mapperIflLi1EEELi1ELi1EfLi1ELb0ELb0EEclEPfRKS3_llll)
+       -     fba7      187                 Eigen::internal::gemm_pack_lhs<float, long, Eigen::internal::const_blas_data_mapper<float, long, 1>, 1, 1, float, 1, false, false>::operator()(float*, Eigen::internal::const_blas_data_mapper<float, long, 1> const&, long, long, long, long)
+       -     fd2e      571         dist/xflame.wasm.lto.o:(_ZN5Eigen8internal11gebp_kernelIfflNS0_16blas_data_mapperIflLi0ELi0ELi1EEELi1ELi4ELb0ELb0EEclERKS3_PKfS8_lllfllll)
+       -     fd2e      571                 Eigen::internal::gebp_kernel<float, float, long, Eigen::internal::blas_data_mapper<float, long, 0, 0, 1>, 1, 4, false, false>::operator()(Eigen::internal::blas_data_mapper<float, long, 0, 0, 1> const&, float const*, float const*, long, long, long, float, long, long, long, long)
+       -    1029f      549         dist/xflame.wasm.lto.o:(_ZN5Eigen8internal13gemm_pack_rhsIflNS0_22const_blas_data_mapperIflLi0EEELi4ELi0ELb0ELb0EEclEPfRKS3_llll)
+       -    1029f      549                 Eigen::internal::gemm_pack_rhs<float, long, Eigen::internal::const_blas_data_mapper<float, long, 0>, 4, 0, false, false>::operator()(float*, Eigen::internal::const_blas_data_mapper<float, long, 0> const&, long, long, long, long)
+       -    107e8       12         dist/xflame.wasm.lto.o:(_ZSt28__throw_bad_array_new_lengthB8nn210108v)
+       -    107e8       12                 std::__throw_bad_array_new_length[abi:nn210108]()
+       -    107fa       7a         dist/xflame.wasm.lto.o:(_ZNSt3__212basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEE25__init_copy_ctor_externalEPKcm)
+       -    107fa       7a                 std::__2::basic_string<char, std::__2::char_traits<char>, std::__2::allocator<char>>::__init_copy_ctor_external(char const*, unsigned long)
+       -    10874       10         dist/xflame.wasm.lto.o:(_ZNSt3__26vectorIZN9XDataUtil9LoadBin32EPKvmE4MetaNS_9allocatorIS4_EEE20__throw_length_errorB8nn210108Ev)
+       -    10874       10                 std::__2::vector<XDataUtil::LoadBin32(void const*, unsigned long)::Meta, std::__2::allocator<XDataUtil::LoadBin32(void const*, unsigned long)::Meta>>::__throw_length_error[abi:nn210108]()
+       -    10884       10         dist/xflame.wasm.lto.o:(_ZNSt3__212basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEE20__throw_length_errorB8nn210108Ev)
+       -    10884       10                 std::__2::basic_string<char, std::__2::char_traits<char>, std::__2::allocator<char>>::__throw_length_error[abi:nn210108]()
+       -    10894       10         dist/xflame.wasm.lto.o:(_ZNSt3__26vectorIcNS_9allocatorIcEEE20__throw_length_errorB8nn210108Ev)
+       -    10894       10                 std::__2::vector<char, std::__2::allocator<char>>::__throw_length_error[abi:nn210108]()
+       -    108a4       2a         dist/xflame.wasm.lto.o:(XFlame_Create)
+       -    108a4       2a                 XFlame_Create
+       -    108ce      346         dist/xflame.wasm.lto.o:(XFlame_Destroy)
+       -    108ce      346                 XFlame_Destroy
+       -    10c14       1b         dist/xflame.wasm.lto.o:(XFlame_Init)
+       -    10c14       1b                 XFlame_Init
+       -    10c2f     3115         dist/xflame.wasm.lto.o:(XFlame_ComputeFrame)
+       -    10c2f     3115                 XFlame_ComputeFrame
+       -    13d44        8         dist/xflame.wasm.lto.o:(XFlame_GetDriveMeshVtsPtr)
+       -    13d44        8                 XFlame_GetDriveMeshVtsPtr
+       -    13d4c        8         dist/xflame.wasm.lto.o:(XFlame_GetDriveMeshVtsCount)
+       -    13d4c        8                 XFlame_GetDriveMeshVtsCount
+       -    13d54        8         dist/xflame.wasm.lto.o:(XFlame_GetDriveMeshFacePtr)
+       -    13d54        8                 XFlame_GetDriveMeshFacePtr
+       -    13d5c        8         dist/xflame.wasm.lto.o:(XFlame_GetDriveMeshFaceCount)
+       -    13d5c        8                 XFlame_GetDriveMeshFaceCount
+       -    13d64        9         dist/xflame.wasm.lto.o:(XFlame_GetNFrames)
+       -    13d64        9                 XFlame_GetNFrames
+       -    13d6d        8         dist/xflame.wasm.lto.o:(XFlame_GetDriveMeshRestNormalPtr)
+       -    13d6d        8                 XFlame_GetDriveMeshRestNormalPtr
+       -    13d75        8         dist/xflame.wasm.lto.o:(XFlame_GetDriveMeshNormalPtr)
+       -    13d75        8                 XFlame_GetDriveMeshNormalPtr
+       -    13d7d        9         dist/xflame.wasm.lto.o:(XFlame_GetCompParmPtr)
+       -    13d7d        9                 XFlame_GetCompParmPtr
+       -    13d86        9         dist/xflame.wasm.lto.o:(XFlame_GetCamParmPtr)
+       -    13d86        9                 XFlame_GetCamParmPtr
+       -    13d8f        9         dist/xflame.wasm.lto.o:(XFlame_GetRenderSizePtr)
+       -    13d8f        9                 XFlame_GetRenderSizePtr
+       -    13d98       97         dist/xflame.wasm.lto.o:(strtox)
+       -    13d98       97                 strtox
+       -    13e2f       48         dist/xflame.wasm.lto.o:(__shlim)
+       -    13e2f       48                 __shlim
+       -    13e77      4a2         dist/xflame.wasm.lto.o:(__floatscan)
+       -    13e77      4a2                 __floatscan
+       -    14319       e4         dist/xflame.wasm.lto.o:(__shgetc)
+       -    14319       e4                 __shgetc
+       -    143fd       59         dist/xflame.wasm.lto.o:(__uflow)
+       -    143fd       59                 __uflow
+       -    14456       8b         dist/xflame.wasm.lto.o:(__toread)
+       -    14456       8b                 __toread
+       -    144e1        5         dist/xflame.wasm.lto.o:(emscripten_futex_wake)
+       -    144e1        5                 emscripten_futex_wake
+       -    144e6       40         dist/xflame.wasm.lto.o:(init_pthread_self)
+       -    144e6       40                 init_pthread_self
+       -    14526        9         dist/xflame.wasm.lto.o:(__get_tp)
+       -    14526        9                 __get_tp
+       -    1452f        a         dist/xflame.wasm.lto.o:(action_abort)
+       -    1452f        a                 action_abort
+       -    14539        a         dist/xflame.wasm.lto.o:(abort)
+       -    14539        a                 abort
+       -    14543       16         dist/xflame.wasm.lto.o:(action_terminate)
+       -    14543       16                 action_terminate
+       -    14559        c         dist/xflame.wasm.lto.o:(_Exit)
+       -    14559        c                 _Exit
+       -    14565       45         dist/xflame.wasm.lto.o:(raise)
+       -    14565       45                 raise
+       -    145aa       14         dist/xflame.wasm.lto.o:(__sig_is_blocked)
+       -    145aa       14                 __sig_is_blocked
+       -    145be       16         dist/xflame.wasm.lto.o:(sigaddset)
+       -    145be       16                 sigaddset
+       -    145d4        e         dist/xflame.wasm.lto.o:(sigismember)
+       -    145d4        e                 sigismember
+       -    145e2       11         dist/xflame.wasm.lto.o:(__isspace)
+       -    145e2       11                 __isspace
+       -    145f3      7d6         dist/xflame.wasm.lto.o:(hexfloat)
+       -    145f3      7d6                 hexfloat
+       -    14dc9      fbb         dist/xflame.wasm.lto.o:(decfloat)
+       -    14dc9      fbb                 decfloat
+       -    15d84      24a         dist/xflame.wasm.lto.o:(scanexp)
+       -    15d84      24a                 scanexp
+       -    15fce       2c         dist/xflame.wasm.lto.o:(copysignl)
+       -    15fce       2c                 copysignl
+       -    15ffa      160         dist/xflame.wasm.lto.o:(scalbnl)
+       -    15ffa      160                 scalbnl
+       -    1615a       1d         dist/xflame.wasm.lto.o:(fabsl)
+       -    1615a       1d                 fabsl
+       -    16177      259         dist/xflame.wasm.lto.o:(strtox.59)
+       -    16177      259                 strtox.59
+       -    163d0       11         dist/xflame.wasm.lto.o:(__isspace.60)
+       -    163d0       11                 __isspace.60
+       -    163e1       4e         dist/xflame.wasm.lto.o:(_ZNSt3__211lower_boundB8nn210108IPKjmNS_6__lessIvvEEEET_S5_S5_RKT0_T1_)
+       -    163e1       4e                 unsigned int const* std::__2::lower_bound[abi:nn210108]<unsigned int const*, unsigned long, std::__2::__less<void, void>>(unsigned int const*, unsigned int const*, unsigned long const&, std::__2::__less<void, void>)
+       -    1642f       12         dist/xflame.wasm.lto.o:(__stdio_seek)
+       -    1642f       12                 __stdio_seek
+       -    16441      16e         dist/xflame.wasm.lto.o:(__stdio_write)
+       -    16441      16e                 __stdio_write
+       -    165af       14         dist/xflame.wasm.lto.o:(__stdio_close)
+       -    165af       14                 __stdio_close
+       -    165c3       1a         dist/xflame.wasm.lto.o:(__wasi_syscall_ret)
+       -    165c3       1a                 __wasi_syscall_ret
+       -    165dd       4c         dist/xflame.wasm.lto.o:(__lseek)
+       -    165dd       4c                 __lseek
+       -    16629       eb         dist/xflame.wasm.lto.o:(memchr)
+       -    16629       eb                 memchr
+       -    16714       1b         dist/xflame.wasm.lto.o:(vfprintf)
+       -    16714       1b                 vfprintf
+       -    1672f      168         dist/xflame.wasm.lto.o:(__vfprintf_internal)
+       -    1672f      168                 __vfprintf_internal
+       -    16897      a1b         dist/xflame.wasm.lto.o:(printf_core)
+       -    16897      a1b                 printf_core
+       -    172b2       1d         dist/xflame.wasm.lto.o:(out)
+       -    172b2       1d                 out
+       -    172cf       7c         dist/xflame.wasm.lto.o:(getint)
+       -    172cf       7c                 getint
+       -    1734b      240         dist/xflame.wasm.lto.o:(pop_arg)
+       -    1734b      240                 pop_arg
+       -    1758b       36         dist/xflame.wasm.lto.o:(fmt_x)
+       -    1758b       36                 fmt_x
+       -    175c1       2f         dist/xflame.wasm.lto.o:(fmt_o)
+       -    175c1       2f                 fmt_o
+       -    175f0       93         dist/xflame.wasm.lto.o:(fmt_u)
+       -    175f0       93                 fmt_u
+       -    17683       1b         dist/xflame.wasm.lto.o:(strnlen)
+       -    17683       1b                 strnlen
+       -    1769e       86         dist/xflame.wasm.lto.o:(pad)
+       -    1769e       86                 pad
+       -    17724        d         dist/xflame.wasm.lto.o:(wctomb)
+       -    17724        d                 wctomb
+       -    17731      ccc         dist/xflame.wasm.lto.o:(fmt_fp)
+       -    17731      ccc                 fmt_fp
+       -    183fd       2f         dist/xflame.wasm.lto.o:(pop_arg_long_double)
+       -    183fd       2f                 pop_arg_long_double
+       -    1842c        6         dist/xflame.wasm.lto.o:(__DOUBLE_BITS)
+       -    1842c        6                 __DOUBLE_BITS
+       -    18432       94         dist/xflame.wasm.lto.o:(frexp)
+       -    18432       94                 frexp
+       -    184c6       32         dist/xflame.wasm.lto.o:(wcrtomb)
+       -    184c6       32                 wcrtomb
+       -    184f8       9c         dist/xflame.wasm.lto.o:(__emscripten_environ_constructor)
+       -    184f8       9c                 __emscripten_environ_constructor
+       -    18594       13         dist/xflame.wasm.lto.o:(_ZL17operator_new_implm)
+       -    18594       13                 operator_new_impl(unsigned long)
+       -    185a7        a         dist/xflame.wasm.lto.o:(_ZSt17__throw_bad_allocv)
+       -    185a7        a                 std::__throw_bad_alloc()
+       -    185b1        b         dist/xflame.wasm.lto.o:(_ZdlPv)
+       -    185b1        b                 operator delete(void*)
+       -    185bc      151         dist/xflame.wasm.lto.o:(_ZNSt3__212basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEE17__assign_externalEPKcm)
+       -    185bc      151                 std::__2::basic_string<char, std::__2::char_traits<char>, std::__2::allocator<char>>::__assign_external(char const*, unsigned long)
+       -    1870d      88e         dist/xflame.wasm.lto.o:(__rem_pio2_large)
+       -    1870d      88e                 __rem_pio2_large
+       -    18f9b        6         dist/xflame.wasm.lto.o:(floor)
+       -    18f9b        6                 floor
+       -    18fa1       50         dist/xflame.wasm.lto.o:(__cosdf)
+       -    18fa1       50                 __cosdf
+       -    18ff1       4c         dist/xflame.wasm.lto.o:(__sindf)
+       -    18ff1       4c                 __sindf
+       -    1903d      193         dist/xflame.wasm.lto.o:(__rem_pio2f)
+       -    1903d      193                 __rem_pio2f
+       -    191d0       9c         dist/xflame.wasm.lto.o:(_emscripten_timeout)
+       -    191d0       9c                 _emscripten_timeout
+       -    19270     1bda DATA
+     400    19271     1b30 .rodata
+     400    19278      b51         <internal>:(.rodata)
+     f60    19dd8      104         dist/xflame.wasm.lto.o:(.rodata.default_actions)
+     f60    19dd8      104                 default_actions
+    1070    19ee8       10         dist/xflame.wasm.lto.o:(.rodata.decfloat.th)
+    1070    19ee8       10                 decfloat.th
+    1080    19ef8       20         dist/xflame.wasm.lto.o:(.rodata.decfloat.p10s)
+    1080    19ef8       20                 decfloat.p10s
+    10a0    19f18        3         dist/xflame.wasm.lto.o:(.rodata..Lswitch.table.__floatscan)
+    10a0    19f18        3                 .Lswitch.table.__floatscan
+    10a4    19f1c        c         dist/xflame.wasm.lto.o:(.rodata..Lswitch.table.__floatscan.2)
+    10a4    19f1c        c                 .Lswitch.table.__floatscan.2
+    10b0    19f28       c0         dist/xflame.wasm.lto.o:(.rodata._ZNSt3__212_GLOBAL__N_112small_primesE)
+    10b0    19f28       c0                 std::__2::(anonymous namespace)::small_primes
+    1170    19fe8       c0         dist/xflame.wasm.lto.o:(.rodata._ZNSt3__212_GLOBAL__N_17indicesE)
+    1170    19fe8       c0                 std::__2::(anonymous namespace)::indices
+    1230    1a0a8      1d0         dist/xflame.wasm.lto.o:(.rodata.states)
+    1230    1a0a8      1d0                 states
+    1400    1a278       10         dist/xflame.wasm.lto.o:(.rodata.xdigits)
+    1400    1a278       10                 xdigits
+    1410    1a288       10         dist/xflame.wasm.lto.o:(.rodata.init_jk)
+    1410    1a288       10                 init_jk
+    1420    1a298      ac8         dist/xflame.wasm.lto.o:(.rodata.ipio2)
+    1420    1a298      ac8                 ipio2
+    1ef0    1ad68       40         dist/xflame.wasm.lto.o:(.rodata.PIo2)
+    1ef0    1ad68       40                 PIo2
+    1f30    1ada8       98 .data
+    1f30    1adaf        4         D:\New\emsdk\upstream\emscripten\cache\sysroot\lib\wasm32-emscripten\lto\libdlmalloc.a(sbrk.o):(.data.sbrk_val)
+    1f30    1adaf        4                 sbrk_val
+    1f38    1adb7       90         dist/xflame.wasm.lto.o:(.data.__stderr_FILE)
+    1f38    1adb7       90                 __stderr_FILE
+    1fd0    19270      2d8 .bss
+    1fd0        0        4         D:\New\emsdk\upstream\emscripten\cache\sysroot\lib\wasm32-emscripten\lto\libc.a(__errno_location.o):(.bss.__errno_storage)
+    1fd0        0        4                 __errno_storage
+    1fd4        0      1d8         D:\New\emsdk\upstream\emscripten\cache\sysroot\lib\wasm32-emscripten\lto\libdlmalloc.a(dlmalloc.o):(.bss._gm_)
+    1fd4        0      1d8                 _gm_
+    21ac        0       18         D:\New\emsdk\upstream\emscripten\cache\sysroot\lib\wasm32-emscripten\lto\libdlmalloc.a(dlmalloc.o):(.bss.mparams)
+    21ac        0       18                 mparams
+    21c4        0        1         dist/xflame.wasm.lto.o:(.bss._ZZN5Eigen8internal20manage_caching_sizesENS_6ActionEPlS2_S2_E12m_cacheSizes.0)
+    21c4        0        1                 Eigen::internal::manage_caching_sizes(Eigen::Action, long*, long*, long*)::m_cacheSizes (.0)
+    21c8        0        1         dist/xflame.wasm.lto.o:(.bss._ZZN5Eigen8internal20manage_caching_sizesENS_6ActionEPlS2_S2_E12m_cacheSizes.1)
+    21c8        0        1                 Eigen::internal::manage_caching_sizes(Eigen::Action, long*, long*, long*)::m_cacheSizes (.1)
+    21cc        0        1         dist/xflame.wasm.lto.o:(.bss._ZZN5Eigen8internal20manage_caching_sizesENS_6ActionEPlS2_S2_E12m_cacheSizes.2)
+    21cc        0        1                 Eigen::internal::manage_caching_sizes(Eigen::Action, long*, long*, long*)::m_cacheSizes (.2)
+    21d0        0        4         dist/xflame.wasm.lto.o:(.bss._ZGVZN5Eigen8internal20manage_caching_sizesENS_6ActionEPlS2_S2_E12m_cacheSizes)
+    21d0        0        4                 guard variable for Eigen::internal::manage_caching_sizes(Eigen::Action, long*, long*, long*)::m_cacheSizes
+    21d4        0       78         dist/xflame.wasm.lto.o:(.bss.__main_pthread)
+    21d4        0       78                 __main_pthread
+    224c        0        8         dist/xflame.wasm.lto.o:(.bss.__sig_mask)
+    224c        0        8                 __sig_mask
+    2254        0        8         dist/xflame.wasm.lto.o:(.bss.__sig_pending)
+    2254        0        8                 __sig_pending
+    225c        0        4         dist/xflame.wasm.lto.o:(.bss.__environ)
+    225c        0        4                 __environ
+    2260        0        8         dist/xflame.wasm.lto.o:(.bss.buf)
+    2260        0        8                 buf
+    2270        0       18         dist/xflame.wasm.lto.o:(.bss.current_timeout_ms)
+    2270        0       18                 current_timeout_ms
+    2290        0       18         dist/xflame.wasm.lto.o:(.bss.current_intervals_ms)
+    2290        0       18                 current_intervals_ms
+       -    1ae4a     4a9b CUSTOM(name)
+       -    1f8e5       9f CUSTOM(producers)
+       -    1f984       a0 CUSTOM(target_features)
