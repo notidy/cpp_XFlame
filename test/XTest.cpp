@@ -161,7 +161,7 @@ void XTest::test()
 void XTest::test_interface()
 {
     //≥ı ºªØ -------------------------------------
-    std::string data_dir = "D:/Some/Project/Web_3dgs/dataset/0525_xiaoshiguan_teeth_audio/flame_render_engine_data";
+    std::string data_dir = "D:/Some/Project/Web_3dgs/dataset/0916_annongda_720/flame_render_engine_data";
     std::string generic_model_f_path = data_dir + "/generic_model.bin";
     std::string flame_track_f_path = data_dir + "/flame_track.bin";
     std::string data_info_f_path = data_dir + "/data_info.bin";

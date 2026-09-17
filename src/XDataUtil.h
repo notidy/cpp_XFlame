@@ -98,8 +98,9 @@ public:
 
         const auto& buf = it->second;
         size_t count = buf.size() / sizeof(T);
+        size_t required = static_cast<size_t>(rows) * cols;
 
-        if (count != rows * cols)
+        if (count < required)
             return {};
 
         return Eigen::Map<const Eigen::Matrix<T, _Rows, _Cols, _Options>>(reinterpret_cast<const T*>(buf.data()), rows, cols);
